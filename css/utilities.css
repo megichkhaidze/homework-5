@@ -1,0 +1,155 @@
+/* buttons */
+button {
+    width: 170px;
+    height: 48px;
+}
+
+
+/* buttons */
+
+
+/* colors */
+.background-color1 {
+    color: #28293E;
+
+}
+
+.background-color2 {
+    color: #FDF0E9;
+}
+
+.background-color3 {
+    color: #F9E5DA;
+}
+
+.button {
+    color: #EF6D58;
+}
+
+.button-ondark {
+    color: #B550F8;
+}
+
+.button-border {
+    border-color: #FFFFFF4B;
+}
+
+/* colors-end */
+
+/* text-dark */
+
+h1 {
+    font-size: 72px;
+    color: #391400;
+}
+
+h2 {
+    font-size: 56px;
+    color: #391400;
+}
+
+h3 {
+    font-size: 40px;
+    color: #391400;
+}
+
+h4 {
+    font-size: 24px;
+    color: #391400;
+}
+
+h5 {
+    font-size: 16px;
+    color: #EF6D58;
+}
+
+.label {
+    font-size: 12px;
+    color: #391400;
+}
+
+.text-big {
+    font-size: 20px;
+    color: #391400;
+}
+
+.text {
+    font-size: 16px;
+    color: #391400;
+}
+
+.text-gray {
+    font-size: 16px;
+    color: #391400A3
+}
+
+.text-small {
+    font-size: 14px;
+    color: #391400A3;
+}
+
+/* text-dark end */
+
+/* text-white */
+
+.h1-white {
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.h2-white {
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+.h3-white {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.h4-white {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.label-white {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.text-big-white {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.text {
+    font-size: 16px;
+    color: #391400;
+}
+
+.text-gray-white {
+    font-size: 16px;
+    color: #FFFFFFA3;
+}
+
+.text-small--white {
+    font-size: 14px;
+    color: #FFFFFFA3;
+}
+
+/* text-white end */
+ 
+/* flex */
+.flex {
+    display: flex;
+
+}
+
+.content-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+/* flex end */
