@@ -1,16 +1,58 @@
 .container1 {
     margin-left: 135px;
     margin-right: 135px;
+    margin-bottom: 139px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .container2 {
-    margin-left:  16px;
+    margin-left: 16px;
     margin-right: 16px;
 
 }
 
 .container-full {
+    background-color: #FDF0E9;
     margin: 0px;
+    padding-top: 100px;
+     padding-bottom: 100px;
 
 }
 
+.bg-blue {
+    background-color: #28293E;
+}
+
+.main-menu {
+    text-transform: capitalize;
+}
+.mr-left {
+ margin-left: 144px;
+}
+
+header {
+    margin: 16px;
+    margin-bottom: 122px;
+}
+.box1 {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.text-center {
+align-items: center;
+}
+.mr-bottom {
+    margin-bottom: 67px;
+}
+.button-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #EF6D58;
+}
+.icon-size {
+    
+    width: 32px;
+}
