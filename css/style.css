@@ -1,3 +1,17 @@
+.box {
+
+    padding: 48px;
+    border: solid #F3D1BF 1px;
+
+}
+
+.container {
+    margin-top: 116px;
+    margin-bottom: 80px;
+
+
+}
+
 .container1 {
     margin-left: 135px;
     margin-right: 135px;
@@ -5,6 +19,16 @@
     display: flex;
     justify-content: space-between;
 
+}
+
+.container1-light {
+    background-color: #FDF0E9;
+    padding: 135px;
+    padding: 135px;
+    padding: 139px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .container2 {
@@ -17,8 +41,20 @@
     background-color: #FDF0E9;
     margin: 0px;
     padding-top: 100px;
-     padding-bottom: 100px;
+    padding-bottom: 100px;
 
+}
+
+.border-box {
+    border: solid #3A3C56 1px;
+    padding: 16px;
+}
+.borderbox-width{
+    width: 586px;
+}
+
+.img-width {
+    width: 50%;
 }
 
 .bg-blue {
@@ -28,31 +64,89 @@
 .main-menu {
     text-transform: capitalize;
 }
-.mr-left {
- margin-left: 144px;
-}
+
+
 
 header {
     margin: 16px;
     margin-bottom: 122px;
 }
+
 .box1 {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
-.text-center {
-align-items: center;
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center
 }
+
+.text-center {
+    align-items: center;
+    justify-content: center;
+}
+
+/* margins */
+.mr-left {
+    margin-left: 144px;
+}
+
 .mr-bottom {
     margin-bottom: 67px;
 }
-.button-icon {
-    width: 80px;
-    height: 80px;
-    background-color: #EF6D58;
+
+.mr-primary {
+    margin-left: 135px;
+    margin-right: 135px;
 }
-.icon-size {
-    
-    width: 32px;
+
+.mr-text {
+    margin-top: 36px;
+    margin-bottom: 22px;
+}
+
+.mr-top {
+    margin-top: 68px;
+}
+.mr-right {
+    margin-right: 60px;
+}
+.pd-primary{
+    padding-left: 135px;
+    padding-right: 135px;
+
+}
+
+/* button icons */
+.button-icon-primary {
+    width: 48px;
+    height: 48px;
+    background-color: #EF6D58;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 24px;
+
+}
+
+.button-icon-secondary {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    filter: drop-shadow(0px 3px 9px #39140014);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-right: 16px;
+
+}
+
+button {
+    display: flex;
+
 }
