@@ -5,7 +5,36 @@
 
 
 }
+.box6 {
 
+    padding: 48px;
+    border: solid #F3D1BF 1px;
+    border-radius:  6px; 
+    width: 570px;
+    
+
+
+}
+
+.box5 {
+
+    padding-top:48px;
+    padding-bottom: 48px;
+    border: solid #F3D1BF 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+
+}
+.box5-line-dark {
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border: solid #3A3C56 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
 .box1 {
     display: flex;
     flex-wrap: wrap;
@@ -63,6 +92,7 @@
 
 }
 
+
 .container-light2 {
     margin-left: 135px;
     margin-right: 135px;
@@ -90,7 +120,7 @@
     margin-left: 135px;
     margin-right: 135px;
     margin-bottom: 139px;
-    display: flex;   
+    display: flex;
     justify-content: center;
 }
 
@@ -114,6 +144,7 @@
     width: 170%;
 }
 
+
 .icon-small-wd {
     width: 12px;
     height: 7px;
@@ -121,6 +152,13 @@
 
 .img-width2 {
     width: 100%;
+}
+
+.img-width3 {
+    width: 50%;
+}
+.img-width4{
+    width: 16.6%;
 }
 
 .img-small {
@@ -135,8 +173,16 @@
 .icon {
     width: 32px;
 }
+.icon-wd1{
+    width: 24imgpx;
+}
+
 .box-width {
     width: 570px;
+}
+
+.logo-width {
+    width: 147px;
 }
 
 
@@ -173,6 +219,9 @@ header {
 }
 
 /* margins */
+.mr-top-big{
+margin-top: 150px;
+}
 .mr-left {
     margin-left: 144px;
 }
@@ -199,18 +248,43 @@ header {
     margin-right: 60px;
 }
 
+.mr-img {
+    margin-bottom: 32px;
+}
+
 .pd-primary {
     padding-left: 135px;
     padding-right: 135px;
 
 }
 
+.pd-right {
+    padding-right: 130px;
+}
+
 .mr-icon-left {
     margin: 100px;
 }
 
+.mr-small {
+    margin-top: 16px;
+}
+.mr-small-left {
+    margin-left: 8px;
+}
+
 .text-indent {
     text-indent: 8px;
+}
+
+.pd-top {
+    padding-top: 70px;
+
+}
+.pd-blue {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
 /* button icons */
@@ -246,9 +320,9 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
-   
+
     border-radius: 24px;
-    
+
 }
 
 
@@ -270,3 +344,4 @@ button {
     display: flex;
     align-items: center;
 }
+

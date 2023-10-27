@@ -90,8 +90,25 @@
     font-family: 'Epilogue';
     font-weight: bold;
 }
+.field {
+    width: 270px;
+    height: 48px;
+    background-color: white;
+    border: solid 1px #F3D1BF;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-right: 16px;
+    border-radius: 6px;
+    padding-left: 16px;
 
-
+}
+.field-message {
+    height: 128px;
+}
+.field-long {
+    width: 470px;
+}
 /* text */
 
 h1 {
@@ -246,6 +263,12 @@ h5 {
 .space-between {
     justify-content: space-between
 }
+.justify-end{
+    justify-content: end;
+}
 .flex-start {
     align-items: flex-start;
+}
+.flex-end {
+    align-items: end;
 }
