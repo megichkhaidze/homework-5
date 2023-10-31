@@ -90,6 +90,19 @@
     font-family: 'Epilogue';
     font-weight: bold;
 }
+.button-white1 {
+    background-color: white;
+    text-transform:capitalize;
+    border-radius: 19px;
+    font-size: 16px;
+    color: #391400;
+    font-family: 'Epilogue';
+    text-align: center;
+    height: 38px;
+    padding: 10px;
+    margin-bottom: 25px;
+   
+}
 .field {
     width: 270px;
     height: 48px;
@@ -246,7 +259,12 @@ h5 {
     font-family: 'Epilogue';
     font-style: normal;
 }
-
+.appercase{
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
 
 
 .align-center {
@@ -271,4 +289,22 @@ h5 {
 }
 .flex-end {
     align-items: end;
+}
+.absolute {
+    position: absolute;
+    bottom: 54px;
+    left: 48px;
+}
+.absolute2 {
+    position: absolute;
+    bottom: 122px;
+    left: 48px;
+}
+.star {
+    position: absolute;
+    bottom: -210px;
+   
+}
+.relative{
+    position: relative;
 }
