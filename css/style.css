@@ -2,34 +2,49 @@
 
     padding: 48px;
     border: solid #F3D1BF 1px;
+}
 
-
+.box-size {
+    width: 33.3%;
 }
 
 .box6 {
-
     padding: 48px;
     border: solid #F3D1BF 1px;
     border-radius: 6px;
+    width: 50%;
+}
+
+.border-box {
+    border: solid #3A3C56 1px;
+    padding: 16px;
+}
+
+.box-width {
     width: 570px;
+}
 
+.border-box2 {
+    border: solid #3A3C56 1px;
+    padding: 40px;
 
+    width: 570px;
+}
 
+.borderbox-width {
+    width: 586px;
 }
 
 .box5 {
-
     padding-top: 48px;
     padding-bottom: 48px;
     border: solid #F3D1BF 1px;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 0px;
-
 }
 
 .box5-line-dark {
-
     padding-top: 48px;
     padding-bottom: 48px;
     border: solid #3A3C56 1px;
@@ -39,15 +54,12 @@
 }
 
 .box1 {
-    display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
 
 .box1-mr-right {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+
     margin-right: 130px;
 }
 
@@ -136,14 +148,6 @@
     justify-content: center;
 }
 
-.border-box {
-    border: solid #3A3C56 1px;
-    padding: 16px;
-}
-
-.borderbox-width {
-    width: 586px;
-}
 
 
 
@@ -153,22 +157,18 @@
 }
 
 .img-width1 {
-    width: 170%;
+    width: 100%;
 }
-
+.width5 {
+ width: 50%;
+}
 
 .icon-small-wd {
     width: 12px;
     height: 7px;
 }
 
-.img-width2 {
-    width: 100%;
-}
 
-.img-width3 {
-    width: 50%;
-}
 
 .img-width4 {
     width: 16.6%;
@@ -191,14 +191,22 @@
     width: 24imgpx;
 }
 
-.box-width {
-    width: 570px;
-}
+
 
 .logo-width {
     width: 147px;
 }
 
+.logo-icon-width {
+    width: 45px;
+    height: 43px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.trngl-rotate {
+    transform: rotate(180deg);
+}
 
 .main-menu {
     text-transform: capitalize;
@@ -255,6 +263,10 @@ header {
     margin-bottom: 22px;
 }
 
+.mr-star {
+    margin-right: 8px;
+}
+
 .mr-top {
     margin-top: 68px;
 }
@@ -298,6 +310,11 @@ header {
 
 }
 
+.pd-bottom {
+    padding-bottom: 100px;
+
+}
+
 .pd-blue {
     padding-left: 100px;
     padding-top: 20px;
@@ -331,14 +348,15 @@ header {
 }
 
 .button-icon-primary-smaller {
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
     background-color: #EF6D58;
     justify-content: center;
     align-items: center;
     display: flex;
-
     border-radius: 24px;
+    margin-right: 16px;
+
 
 }
 
@@ -350,7 +368,6 @@ header {
     filter: drop-shadow(0px 3px 9px #39140014);
     justify-content: center;
     align-items: center;
-    text-align: center;
     display: flex;
     margin-right: 16px;
     border-radius: 24px;
