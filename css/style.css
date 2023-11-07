@@ -134,8 +134,8 @@
 
 .container-full-2 {
     background-color: #FDF0E9;
-    margin: 0px;
     padding-top: 100px;
+   
 
 
 }
@@ -179,18 +179,9 @@
     margin-right: 24px;
 }
 
-.img-icon {
-    width: 12px;
-}
-
 .icon {
     width: 32px;
 }
-
-.icon-wd1 {
-    width: 24imgpx;
-}
-
 
 
 .logo-width {
@@ -212,6 +203,11 @@
     text-transform: capitalize;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 .main-menu-mr {
     margin-right: 85px;
@@ -231,9 +227,7 @@ header {
     align-items: center
 }
 
-.txt-center {
-    text-align: center;
-}
+
 
 .text-center {
     align-items: center;
@@ -265,6 +259,10 @@ header {
 
 .mr-star {
     margin-right: 8px;
+}
+.mr-trngl {
+    margin-bottom: 3px;
+
 }
 
 .mr-top {
