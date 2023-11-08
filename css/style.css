@@ -96,7 +96,16 @@
     align-content: center;
 
 }
+.container-logo {
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 139px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+
+}
 .container1-light {
     background-color: #FDF0E9;
     padding: 135px;
@@ -182,7 +191,10 @@
 .icon {
     width: 32px;
 }
-
+.logo-icon {
+    display: flex;
+    align-items: center;
+}
 
 .logo-width {
     width: 147px;
@@ -372,7 +384,8 @@ header {
 
 }
 
-button {
+ button {
     display: flex;
     align-items: center;
+   
 }
