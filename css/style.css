@@ -31,9 +31,6 @@
     width: 570px;
 }
 
-.borderbox-width {
-    width: 586px;
-}
 
 .box5 {
     padding-top: 48px;
@@ -161,9 +158,7 @@
 
 
 /* images */
-.img-width {
-    width: 528px;
-}
+
 
 .img-width1 {
     width: 100%;
@@ -172,11 +167,11 @@
  width: 50%;
 }
 
+
 .icon-small-wd {
     width: 12px;
     height: 7px;
 }
-
 
 
 .img-width4 {
