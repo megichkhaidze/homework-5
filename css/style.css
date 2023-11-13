@@ -116,8 +116,8 @@
 
 .container-light2 {
     background-color: #F9E5DA;
-    margin-left: 135px;
-    margin-right: 135px;
+    padding-left: 135px;
+    padding-right: 135px;
     padding-top: 45px;
     padding-bottom: 45px;
     display: flex;
@@ -192,7 +192,7 @@
 }
 
 .logo-width {
-    width: 147px;
+    width: 15%;
 }
 
 .logo-icon-width {
@@ -207,6 +207,10 @@
 }
 
 .main-menu {
+    text-transform: capitalize;
+
+}
+.main-menu-ft {
     text-transform: capitalize;
 
 }
@@ -292,6 +296,9 @@ header {
 
 .pd-right {
     padding-right: 130px;
+}
+.pd-right1 {
+    padding-right: 60px;
 }
 
 .mr-icon-left {
