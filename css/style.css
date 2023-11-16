@@ -14,6 +14,7 @@
     border-radius: 6px;
     width: 50%;
 }
+
 .border-box {
     border: solid #3A3C56 1px;
     padding: 16px;
@@ -38,6 +39,7 @@
     border-right: 0px;
     border-bottom: 0px;
 }
+
 .box5-2 {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -183,8 +185,9 @@
 .width5 {
     width: 50%;
 }
+
 .width2 {
-    width:55%;
+    width: 55%;
 }
 
 .icon-small-wd {
@@ -357,6 +360,15 @@ header {
     padding-right: 20px;
 }
 
+.pd-pic-right {
+    padding: 0px 15px 30px 0px;
+}
+.pd-pic-left {
+    padding: 0px 0px 30px 15px;
+}
+ .mr-pic-top {
+    margin-top: 30px;
+ }
 /* button icons */
 .button-icon-primary {
     width: 80px;
@@ -406,6 +418,18 @@ header {
     display: flex;
     margin-right: 16px;
     border-radius: 24px;
+
+}
+.button-icon-secondary2 {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    filter: drop-shadow(0px 3px 9px #39140014);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 16px;
+    border-radius: 6px;
 
 }
 
