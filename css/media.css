@@ -488,6 +488,31 @@
     .box5-2.title-box h2 {
         hyphens: manual;
     }
+
+    .absolute2 {
+        bottom: 100px;
+    }
+
+    .absolute2,
+    .absolute {
+        left: 30px;
+    }
+
+    .relative.width5.pd-pic-right {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+
+    .relative.width5.pd-pic-left {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+     ul.flex.text-center {
+        display: none;
+     }
+    .form1.mr-small.text-gray.after-rsp {
+        display: block;
+    }
 }
 
 
@@ -622,6 +647,6 @@
     }
 
     .box5-2.title-box .button-icon-primary-smaller {
-        margin:0px;
+        margin: 0px;
     }
 }

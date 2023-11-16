@@ -369,6 +369,9 @@ header {
  .mr-pic-top {
     margin-top: 30px;
  }
+ .mr-nav-small{
+    margin-left:20px;
+ }
 /* button icons */
 .button-icon-primary {
     width: 80px;

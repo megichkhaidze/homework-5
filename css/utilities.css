@@ -421,3 +421,6 @@ span {
 .color-red {
     background-color:#EF6D58;
 }
+ .form1.mr-small.text-gray.after-rsp {
+    display: none;
+ }
