@@ -3,7 +3,6 @@
     padding: 48px;
     border: solid #F3D1BF 1px;
 }
-
 .box-size {
     width: 33.3%;
 }
@@ -114,10 +113,7 @@
 
 .container1-light {
     background-color: #FDF0E9;
-    padding: 135px;
-    padding: 135px;
-    padding: 135px;
-    padding: 135px;
+    padding: 80px 135px 80px 135px ;
     display: flex;
     justify-content: space-between;
 
@@ -204,6 +200,10 @@
     width: 80px;
     margin-right: 24px;
 }
+.width25 {
+    width: 25%;
+}
+
 
 .icon {
     width: 32px;
@@ -352,6 +352,9 @@ header {
 .pd-bottom {
     padding-bottom: 100px;
 
+}
+.pd-30 {
+    padding-right: 30px;
 }
 
 .pd-blue {
