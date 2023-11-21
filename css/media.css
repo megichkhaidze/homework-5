@@ -758,5 +758,8 @@
     .container1-light {
         padding-top: 30px;
     }
+    .container1-light-col .flex.space-between.mr-bottom {
+        flex-wrap: wrap;
+    }
 
 }
