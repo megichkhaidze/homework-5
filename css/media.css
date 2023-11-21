@@ -610,6 +610,11 @@
 
     .border-box2-light {
         width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container-center .pd-right.mr-top {
+        padding: 0px;
     }
 }
 
