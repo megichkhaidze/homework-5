@@ -1,18 +1,8 @@
-.box {
-
-    padding: 48px;
-    border: solid #F3D1BF 1px;
-}
 .box-size {
     width: 33.3%;
 }
 
-.box6 {
-    padding: 48px;
-    border: solid #F3D1BF 1px;
-    border-radius: 6px;
-    width: 50%;
-}
+
 
 .border-box {
     border: solid #3A3C56 1px;
@@ -28,7 +18,24 @@
     padding: 40px;
     width: 570px;
 }
+.box-light {
+padding: 30px;
+background-color: #F9E5DA;
+border-radius: 6px;
+}
 
+.box {
+
+    padding: 48px;
+    border: solid #F3D1BF 1px;
+}
+
+.box6 {
+    padding: 48px;
+    border: solid #F3D1BF 1px;
+    border-radius: 6px;
+    width: 50%;
+}
 
 .box5 {
     padding-top: 48px;
@@ -103,7 +110,6 @@
 .container-logo {
     margin-left: 135px;
     margin-right: 135px;
-    margin-bottom: 139px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,7 +119,7 @@
 
 .container1-light {
     background-color: #FDF0E9;
-    padding: 80px 135px 80px 135px ;
+    padding: 80px 135px 80px 135px;
     display: flex;
     justify-content: space-between;
 
@@ -186,6 +192,10 @@
     width: 55%;
 }
 
+.width3 {
+    width: 75%;
+}
+
 .icon-small-wd {
     width: 12px;
     height: 7px;
@@ -200,6 +210,7 @@
     width: 80px;
     margin-right: 24px;
 }
+
 .width25 {
     width: 25%;
 }
@@ -252,7 +263,6 @@ ul {
 
 header {
     margin: 16px;
-    margin-bottom: 122px;
 }
 
 
@@ -353,6 +363,7 @@ header {
     padding-bottom: 100px;
 
 }
+
 .pd-30 {
     padding-right: 30px;
 }
@@ -366,18 +377,23 @@ header {
 .pd-pic-right {
     padding: 0px 15px 30px 0px;
 }
+
 .pd-pic-left {
     padding: 0px 0px 30px 15px;
 }
-.pd-pic-right2{
+
+.pd-pic-right2 {
     padding: 0px 30px 30px 0px;
 }
- .mr-pic-top {
+
+.mr-pic-top {
     margin-top: 30px;
- }
- .mr-nav-small{
-    margin-left:20px;
- }
+}
+
+.mr-nav-small {
+    margin-left: 20px;
+}
+
 /* button icons */
 .button-icon-primary {
     width: 80px;
@@ -402,7 +418,16 @@ header {
     border-radius: 24px;
 
 }
+.icon-primary-small-no-mr {
+    width: 48px;
+    height: 48px;
+    background-color: #EF6D58;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 24px;
 
+}
 .button-icon-primary-smaller {
     width: 32px;
     height: 32px;
@@ -412,10 +437,15 @@ header {
     display: flex;
     border-radius: 24px;
     margin-right: 16px;
-
-
 }
 
+.icon-smallest {
+    width: 8px;
+    height: 8px;
+    background-color: #EF6D58;
+    border-radius: 24px;
+    margin-right: 16px;
+}
 
 .button-icon-secondary {
     width: 48px;
@@ -429,6 +459,7 @@ header {
     border-radius: 24px;
 
 }
+
 .button-icon-secondary2 {
     width: 48px;
     height: 48px;

@@ -20,7 +20,7 @@
     .container-logo {
         margin-left: 100px;
         margin-right: 100px;
-        margin-bottom: 80px;
+        /* margin-bottom: 80px; */
     }
 
 
@@ -310,6 +310,14 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+
+    .box5.flex.space-between.after-rsp {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .width5.after-srp, .width3 {
+        width:100%;
+    }
 }
 
 
@@ -569,9 +577,9 @@
         padding-right: 0px;
     }
 
-    .box5-2.flex.space-between {
+    /* .box5-2.flex.space-between {
         flex-wrap: wrap;
-    }
+    } */
 
     .box5-2.flex.space-between .flex.width5 {
         flex-wrap: wrap;
