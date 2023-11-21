@@ -200,6 +200,15 @@ h5 {
     font-family: 'Epilogue';
     font-style: normal;
 }
+.h5-no-mr {
+    font-size: 16px;
+    color: #EF6D58;
+    text-transform: uppercase;
+    line-height: 32px;
+    letter-spacing: 3px;
+    font-family: 'Epilogue';
+    font-style: normal;
+}
 
 .h5-center {
     font-size: 16px;
@@ -361,7 +370,16 @@ h5 {
     bottom: 122px;
     left: 48px;
 }
-
+.absolute3 {
+    position: absolute;
+    top: 130px;
+    bottom: 130px;
+}
+.absolute4 {
+    position: absolute;
+    top:50%;
+    right:15%
+}
 .star {
     position: absolute;
     bottom: -210px;

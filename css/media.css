@@ -315,8 +315,15 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-    .width5.after-srp, .width3 {
-        width:100%;
+
+    .width5.after-srp,
+    .width3,
+    .box-size {
+        width: 100%;
+    }
+
+    .container-center {
+        flex-wrap: wrap;
     }
 }
 
@@ -600,6 +607,10 @@
     .bg-light.pd-primary.pd-bottom {
         padding-top: 40px;
     }
+
+    .border-box2-light {
+        width: 100%;
+    }
 }
 
 
@@ -758,6 +769,7 @@
     .container1-light {
         padding-top: 30px;
     }
+
     .container1-light-col .flex.space-between.mr-bottom {
         flex-wrap: wrap;
     }
