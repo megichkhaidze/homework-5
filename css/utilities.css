@@ -372,8 +372,7 @@ h5 {
 }
 .absolute3 {
     position: absolute;
-    top: 130px;
-    bottom: 130px;
+    top: 10%;
 }
 .absolute4 {
     position: absolute;
