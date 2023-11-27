@@ -268,6 +268,10 @@ h5 {
     color: #391400;
 }
 
+b {
+    color: #391400A3
+}
+
 .txt-dark-small {
     font-size: 14px;
     color: #391400;
@@ -399,9 +403,6 @@ h5 {
     position: relative;
 }
 
-b {
-    color: #391400A3
-}
 
 /* burger menu */
 .burger-menu {
@@ -411,20 +412,26 @@ b {
     border-radius: 6px;
     padding: 12px 15px 10px 15px;
     display: none;
+    transition: .3s;
+    position: relative;
 }
 
+
 span {
-    width: 16px;
+    width: 20px;
     height: 3px;
     margin-bottom: 5px;
     background-color: white;
     display: block;
+    transition: transform .3s;
 }
+
+
 
 .burger-menu-nav {
     background-color: #EF6D58;
     position: fixed;
-    top: 0px;
+    top: 0%;
     left: -120%;
     width: 100%;
     height: 100%;
@@ -433,7 +440,7 @@ span {
     align-items: center;
     line-height: 40px;
     padding-top: 135px;
-    transition: .3s;
+    transition: left .3s;
     color: white;
 }
 

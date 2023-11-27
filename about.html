@@ -68,15 +68,15 @@
                 <ul class="burger-menu-nav">
                     <li>
                     <li>
-                        <a href="file:///C:/Users/acer/Desktop/front%20end%20homeworks/homework%205/about.html"
-                            >about</a>
+                        <a
+                            href="file:///C:/Users/acer/Desktop/front%20end%20homeworks/homework%205/about.html">about</a>
                     </li>
-                    <li><a href="file:///C:/Users/acer/Desktop/front%20end%20homeworks/homework%205/services.html"
-                            >services</a>
+                    <li><a
+                            href="file:///C:/Users/acer/Desktop/front%20end%20homeworks/homework%205/services.html">services</a>
                     </li>
                     <li>
-                        <a href="file:///C:/Users/acer/Desktop/front%20end%20homeworks/homework%205/index.html"
-                            >portfolio</a>
+                        <a
+                            href="file:///C:/Users/acer/Desktop/front%20end%20homeworks/homework%205/index.html">portfolio</a>
                     </li>
                     <li>
                         <a href="file:///C:/Users/acer/Desktop/front%20end%20homeworks/homework%205/blog.html">blog</a>
@@ -328,7 +328,13 @@
 
         </div>
     </footer>
-
+    <script src="js/jquery.js"></script>
+    <script>
+        $(".burger-menu").click(function () {
+            $(".burger-menu-nav").toggleClass("is-open");
+            $(".burger-menu").toggleClass("is-open");
+        });
+    </script>
 </body>
 
 </html>
